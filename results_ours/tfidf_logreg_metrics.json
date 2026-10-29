@@ -1,0 +1,18 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "task": "single-label six-class classification",
+  "train_rows": 10074,
+  "validation_rows": 1439,
+  "test_rows": 2879,
+  "test_accuracy": 0.8541160125043418,
+  "test_macro_f1": 0.7899797086916873,
+  "test_micro_f1": 0.8541160125043418,
+  "class_order": [
+    "casualty",
+    "infrastructure_damage",
+    "request_for_help",
+    "rescue_or_aid",
+    "shelter_or_supply",
+    "situation_update"
+  ]
+}

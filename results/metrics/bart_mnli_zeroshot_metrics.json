@@ -1,0 +1,11 @@
+{
+  "subset_accuracy": 0.056964223688780825,
+  "f1_macro": 0.3580995091649122,
+  "f1_micro": 0.36234025906285316,
+  "casualty_f1": 0.49678800856531047,
+  "infrastructure_damage_f1": 0.49317738791423,
+  "request_for_help_f1": 0.09937332139659803,
+  "rescue_or_aid_f1": 0.5904628330995793,
+  "shelter_or_supply_f1": 0.23025435073627845,
+  "situation_update_f1": 0.2385411532774766
+}

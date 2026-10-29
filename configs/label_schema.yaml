@@ -1,0 +1,38 @@
+informative_task:
+  negative_label: non_informative
+  positive_label: informative
+  description: >
+    A post is labeled informative if it contains factual information
+    valuable for disaster situational awareness. Posts consisting mainly
+    of emotional expression, generic commentary, or clearly irrelevant
+    content are labeled non-informative.
+
+semantic_task:
+  labels:
+    - name: casualty
+      description: Deaths, injuries, missing or trapped persons.
+    - name: infrastructure_damage
+      description: >
+        Damage to buildings, roads, bridges, power lines,
+        water supply, communication facilities, or other infrastructure.
+    - name: request_for_help
+      description: Requests for rescue, emergency aid, or urgent supplies.
+    - name: rescue_or_aid
+      description: >
+        Rescue operations, material distribution, emergency response,
+        or volunteer support activities.
+    - name: shelter_or_supply
+      description: >
+        Shelter locations, tents, drinking water, food, medicine,
+        bedding, or other daily necessities.
+    - name: situation_update
+      description: >
+        Official announcements, disaster progression, aftershocks,
+        water levels, rainfall, or spread trends.
+  annotation_rule: >
+    The main experiment uses six fine-grained semantic categories.
+    Each post is assigned one primary semantic label.
+    If the source contains multiple disaster semantics, the label
+    with the highest emergency decision value takes priority.
+    Posts classified as non-informative are excluded from
+    fine-grained semantic classification.

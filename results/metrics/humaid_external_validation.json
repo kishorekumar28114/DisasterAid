@@ -1,0 +1,25 @@
+{
+  "total": 12143,
+  "multi_label_ratio": 0.0032940788931894917,
+  "label_distribution": {
+    "casualty": 1583,
+    "infrastructure_damage": 1987,
+    "request_for_help": 494,
+    "rescue_or_aid": 4915,
+    "shelter_or_supply": 874,
+    "situation_update": 1856
+  },
+  "model_path": "results\\bert_model\\best_model",
+  "threshold": 0.5,
+  "metrics": {
+    "subset_accuracy": 0.8039199538828955,
+    "f1_macro": 0.8131791565871561,
+    "f1_micro": 0.8216501760858628,
+    "casualty_f1": 0.9484203739522888,
+    "infrastructure_damage_f1": 0.8251942286348501,
+    "request_for_help_f1": 0.6817733990147783,
+    "rescue_or_aid_f1": 0.877819137289249,
+    "shelter_or_supply_f1": 0.8918269230769231,
+    "situation_update_f1": 0.6540408775548472
+  }
+}

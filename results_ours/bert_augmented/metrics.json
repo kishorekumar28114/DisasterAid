@@ -1,0 +1,30 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "experiment": "BERT with one typo-augmented copy per training example",
+  "labels": [
+    "casualty",
+    "infrastructure_damage",
+    "request_for_help",
+    "rescue_or_aid",
+    "shelter_or_supply",
+    "situation_update"
+  ],
+  "seed": 42,
+  "epochs": 3,
+  "max_length": 128,
+  "train_batch_size": 16,
+  "learning_rate": 2e-05,
+  "fp16": true,
+  "results": {
+    "dev": {
+      "accuracy": 0.9305072967338429,
+      "macro_f1": 0.8987105437514229,
+      "micro_f1": 0.9305072967338429
+    },
+    "test": {
+      "accuracy": 0.9128169503299757,
+      "macro_f1": 0.8739332988798151,
+      "micro_f1": 0.9128169503299757
+    }
+  }
+}

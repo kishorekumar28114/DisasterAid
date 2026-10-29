@@ -1,0 +1,30 @@
+{
+  "model": "google-bert/bert-base-uncased",
+  "task": "single-label six-class classification",
+  "labels": [
+    "casualty",
+    "infrastructure_damage",
+    "request_for_help",
+    "rescue_or_aid",
+    "shelter_or_supply",
+    "situation_update"
+  ],
+  "seed": 42,
+  "epochs": 3,
+  "max_length": 128,
+  "train_batch_size": 16,
+  "learning_rate": 2e-05,
+  "fp16": true,
+  "results": {
+    "dev": {
+      "accuracy": 0.9312022237665045,
+      "macro_f1": 0.9016937182025991,
+      "micro_f1": 0.9312022237665045
+    },
+    "test": {
+      "accuracy": 0.9145536644668287,
+      "macro_f1": 0.8784208762772003,
+      "micro_f1": 0.9145536644668287
+    }
+  }
+}

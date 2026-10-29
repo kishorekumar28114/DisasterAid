@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the published paper."
+title: "Fine-Grained Semantic Classification of Disaster-Related Social Media Text"
+authors:
+  - family-names: "Wang"
+    given-names: "Xiaodong"
+  - family-names: "Yang"
+    given-names: "Tengfei"
+doi: "10.3390/app16115621"
+url: "https://github.com/HAUSTCourse/FGSC"
+repository-code: "https://github.com/HAUSTCourse/FGSC"
+date-released: 2026-06-04
+license: "MIT"
+preferred-citation:
+  type: article
+  title: "Fine-Grained Semantic Classification of Disaster-Related Social Media Text for Emergency Management"
+  authors:
+    - family-names: "Wang"
+      given-names: "Xiaodong"
+    - family-names: "Yang"
+      given-names: "Tengfei"
+  journal: "Applied Sciences"
+  volume: 16
+  issue: 11
+  pages: "5621"
+  year: 2026
+  date-published: 2026-06-04
+  doi: "10.3390/app16115621"
+  url: "https://www.mdpi.com/2076-3417/16/11/5621"

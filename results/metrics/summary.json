@@ -1,0 +1,43 @@
+{
+  "main_results": {
+    "tfidf_logreg": {
+      "subset_accuracy": 0.6641,
+      "f1_macro": 0.6133,
+      "f1_micro": 0.7784
+    },
+    "bert_base": {
+      "subset_accuracy": 0.9076,
+      "f1_macro": 0.8824,
+      "f1_micro": 0.9157
+    },
+    "bart_mnli_zeroshot": {
+      "subset_accuracy": 0.0570,
+      "f1_macro": 0.3581,
+      "f1_micro": 0.3623
+    }
+  },
+  "external_validation": {
+    "humaid_test": {
+      "subset_accuracy": 0.8039,
+      "f1_macro": 0.8132,
+      "f1_micro": 0.8217
+    }
+  },
+  "chinese_boundary_test": {
+    "english_bert_direct": {
+      "subset_accuracy": 0.0960,
+      "f1_macro": 0.0522,
+      "f1_micro": 0.0965
+    },
+    "mbert_direct": {
+      "subset_accuracy": 0.1921,
+      "f1_macro": 0.2684,
+      "f1_micro": 0.3632
+    },
+    "translate_then_english_bert": {
+      "subset_accuracy": 0.2090,
+      "f1_macro": 0.3603,
+      "f1_micro": 0.4784
+    }
+  }
+}

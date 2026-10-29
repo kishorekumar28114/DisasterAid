@@ -1,0 +1,26 @@
+{
+  "total": 177,
+  "multi_label_ratio": 0.0,
+  "label_distribution": {
+    "casualty": 0,
+    "infrastructure_damage": 0,
+    "request_for_help": 0,
+    "rescue_or_aid": 0,
+    "shelter_or_supply": 0,
+    "situation_update": 50
+  },
+  "model_path": "outputs\\bert_event_group_devtest\\best_model",
+  "threshold": 0.5,
+  "device": "cuda",
+  "metrics": {
+    "subset_accuracy": 0.096045197740113,
+    "f1_macro": 0.052173913043478265,
+    "f1_micro": 0.09651474530831099,
+    "casualty_f1": 0.0,
+    "infrastructure_damage_f1": 0.0,
+    "request_for_help_f1": 0.0,
+    "rescue_or_aid_f1": 0.0,
+    "shelter_or_supply_f1": 0.0,
+    "situation_update_f1": 0.3130434782608696
+  }
+}

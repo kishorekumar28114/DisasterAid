@@ -1,0 +1,53 @@
+{
+  "task": "multilabel",
+  "model": "tfidf_logreg",
+  "train_size": 10074,
+  "test_size": 2879,
+  "labels": [
+    "casualty",
+    "infrastructure_damage",
+    "request_for_help",
+    "rescue_or_aid",
+    "shelter_or_supply",
+    "situation_update"
+  ],
+  "metrics": {
+    "subset_accuracy": 0.6641194859326155,
+    "precision_macro": 0.9155929297243439,
+    "recall_macro": 0.5064615470622393,
+    "f1_macro": 0.61329922001115,
+    "f1_micro": 0.7784090909090909,
+    "label_metrics": {
+      "casualty": {
+        "precision": 0.984,
+        "recall": 0.7851063829787234,
+        "f1": 0.8733727810650888
+      },
+      "infrastructure_damage": {
+        "precision": 0.9450171821305842,
+        "recall": 0.5978260869565217,
+        "f1": 0.7323568575233023
+      },
+      "request_for_help": {
+        "precision": 0.7222222222222222,
+        "recall": 0.1092436974789916,
+        "f1": 0.1897810218978102
+      },
+      "rescue_or_aid": {
+        "precision": 0.915863277826468,
+        "recall": 0.8826013513513513,
+        "f1": 0.8989247311827957
+      },
+      "shelter_or_supply": {
+        "precision": 0.956989247311828,
+        "recall": 0.29372937293729373,
+        "f1": 0.4494949494949495
+      },
+      "situation_update": {
+        "precision": 0.9694656488549618,
+        "recall": 0.37026239067055394,
+        "f1": 0.5358649789029536
+      }
+    }
+  }
+}

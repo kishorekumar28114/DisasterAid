@@ -1,0 +1,37 @@
+{
+  "total": 177,
+  "multi_label_ratio": 0.005649717514124294,
+  "label_distribution": {
+    "casualty": 16,
+    "infrastructure_damage": 9,
+    "request_for_help": 3,
+    "rescue_or_aid": 91,
+    "shelter_or_supply": 29,
+    "situation_update": 14
+  },
+  "input_data": "data/processed/expanded_chinese_gold_177_reviewed.csv",
+  "classifier_model_path": "outputs/bert_event_group_devtest/best_model",
+  "translation_backend": "existing",
+  "translator_model": "GLM-4.5-Flash",
+  "translation_batch_size": 8,
+  "translation_max_chars": 400,
+  "translation_max_source_len": 256,
+  "translation_max_new_tokens": 192,
+  "text_column": "text_clean",
+  "translation_column": "text_en_translated",
+  "label_column": "final_multilabel_gold",
+  "threshold": 0.5,
+  "device": "cuda",
+  "translated_input_csv": "outputs\\cross_lingual_translate_bert_gold_177_reviewed_devtest\\translated_input.csv",
+  "metrics": {
+    "subset_accuracy": 0.20903954802259886,
+    "f1_macro": 0.360280939065111,
+    "f1_micro": 0.47835051546391755,
+    "casualty_f1": 0.35555555555555557,
+    "infrastructure_damage_f1": 0.2727272727272727,
+    "request_for_help_f1": 0.3,
+    "rescue_or_aid_f1": 0.7149321266968326,
+    "shelter_or_supply_f1": 0.2653061224489796,
+    "situation_update_f1": 0.25316455696202533
+  }
+}

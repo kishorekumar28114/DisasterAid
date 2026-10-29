@@ -1,0 +1,19 @@
+{
+  "selected_bert_weight": 0.6,
+  "selected_lr_weight": 0.4,
+  "weight_selection": "validation Macro-F1; accuracy tie-break",
+  "test_metrics": {
+    "accuracy": 0.9142063216394581,
+    "macro_f1": 0.8779894165124187,
+    "micro_f1": 0.9142063216394581
+  },
+  "test_rows": 2879,
+  "labels": [
+    "casualty",
+    "infrastructure_damage",
+    "request_for_help",
+    "rescue_or_aid",
+    "shelter_or_supply",
+    "situation_update"
+  ]
+}

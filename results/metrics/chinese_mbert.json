@@ -1,0 +1,26 @@
+{
+  "total": 177,
+  "multi_label_ratio": 0.005649717514124294,
+  "label_distribution": {
+    "casualty": 17,
+    "infrastructure_damage": 4,
+    "request_for_help": 1,
+    "rescue_or_aid": 59,
+    "shelter_or_supply": 10,
+    "situation_update": 32
+  },
+  "model_path": "outputs\\mbert_crisissense_devtest\\best_model",
+  "threshold": 0.5,
+  "device": "cuda",
+  "metrics": {
+    "subset_accuracy": 0.192090395480226,
+    "f1_macro": 0.26838187324565826,
+    "f1_micro": 0.3632286995515695,
+    "casualty_f1": 0.34782608695652173,
+    "infrastructure_damage_f1": 0.23529411764705882,
+    "request_for_help_f1": 0.1111111111111111,
+    "rescue_or_aid_f1": 0.5608465608465608,
+    "shelter_or_supply_f1": 0.02531645569620253,
+    "situation_update_f1": 0.32989690721649484
+  }
+}

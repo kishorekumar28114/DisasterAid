@@ -1,0 +1,36 @@
+{
+ "rows": {
+  "train": 10074,
+  "val": 1439,
+  "test": 2879
+ },
+ "label_counts": {
+  "train": {
+   "casualty": 2073,
+   "infrastructure_damage": 1391,
+   "request_for_help": 632,
+   "rescue_or_aid": 4492,
+   "shelter_or_supply": 536,
+   "situation_update": 950
+  },
+  "val": {
+   "casualty": 202,
+   "infrastructure_damage": 200,
+   "request_for_help": 73,
+   "rescue_or_aid": 614,
+   "shelter_or_supply": 136,
+   "situation_update": 214
+  },
+  "test": {
+   "casualty": 470,
+   "infrastructure_damage": 460,
+   "request_for_help": 119,
+   "rescue_or_aid": 1184,
+   "shelter_or_supply": 303,
+   "situation_update": 343
+  }
+ },
+ "text_col": "text_clean",
+ "split_col": "split",
+ "group_col": "event_group"
+}
